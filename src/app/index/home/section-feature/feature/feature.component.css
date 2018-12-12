@@ -1,0 +1,26 @@
+.feature {
+  box-sizing: border-box;
+  padding: 0 10%;
+}
+.icon {
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+  margin-bottom: 25px;
+  border-radius: 72px;
+  background-color: #f7fbff;
+  line-height: 72px;
+  text-align: center;
+}
+.feature-text h3 {
+  color: #8b95a3;
+}
+.feature-text p {
+  font-size: 14px;
+  color: #8b95a3;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+
+

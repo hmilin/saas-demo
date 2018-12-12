@@ -1,0 +1,13 @@
+.card-container {
+  width: 100%;
+  background-color: #f7fbff;
+  padding: 100px 10%;
+  box-sizing: border-box;
+}
+.card-container app-card {
+  width: 20%;
+  margin: 0 2%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}

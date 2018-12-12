@@ -1,0 +1,9 @@
+<div class="pricing-container">
+  <div class="header-btn">
+    <span class="btn" [ngClass]="{ 'btn-active': monthlyActive }" (click)="changeActive(1)">Monthly</span>
+    <span class="btn" (click)="changeActive(2)" [ngClass]="{ 'btn-active': !monthlyActive }">Yearly</span>
+  </div>
+  <div class="pricing-show">
+    <app-pricing-show *ngFor="let item of priceList" [list]="item"></app-pricing-show>
+  </div>
+</div>

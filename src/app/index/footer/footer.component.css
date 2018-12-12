@@ -1,0 +1,54 @@
+.footer-icon {
+  color: #8b95a3;
+  font-size: 20px;
+}
+#footer {
+  overflow: hidden;
+  padding: 100px 5%;
+}
+#footer-left {
+  height: 87px;
+  width: 360px;
+  padding: 0 15px;
+  position: relative;
+  float: left;
+}
+#footer-left>img {
+  height: 15px;
+}
+.footer-left-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.footer-left-bottom>a {
+  padding-right: 20px;
+}
+.footer-left-bottom>a:hover>i {
+  color: #333;
+}
+#footer-right {
+  float: right;
+}
+.footer-right-list {
+  display: inline-block;
+  width: 140px;
+}
+.footer-right-list>dt {
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 20px;
+}
+.list-content {
+  line-height: 20px;
+  padding: 3px 0;
+}
+.list-content>a {
+  font-size: 12px;
+  color: #8b95a3;
+ }
+.list-content>a:hover {
+  color: #333;
+}
+ .list-content:first-of-type {
+    padding-top: 0;
+ }

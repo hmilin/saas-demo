@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="price-box">
+    <h3>{{list.title}}</h3>
+    <span>{{list.price}}</span>
+  </div>
+  <p>{{list.text}}</p>
+  <a href="#" class="start-btn">
+    <span>Get Started</span>
+  </a>
+  <ul>
+    <li *ngFor="let liItem of list.ul">{{liItem}}</li>
+  </ul>
+  <a href="#" class="link">See all features<span>&nbsp;&nbsp;&gt;</span></a>
+</div>

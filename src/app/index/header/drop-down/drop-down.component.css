@@ -1,0 +1,30 @@
+#home-drop-down {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+}
+.home-drop-down-content{
+  line-height: 30px;
+  font-size: 14px;
+}
+.home-drop-down-content > a {
+  color: #8b95a3;
+}
+.home-drop-down-content>a:hover {
+  color: #333;
+  cursor: pointer;
+}
+#home-drop-down:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fefefe;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -20px;
+}

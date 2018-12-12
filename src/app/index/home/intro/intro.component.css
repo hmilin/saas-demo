@@ -1,0 +1,17 @@
+#intro {
+  width: 100%;
+  text-align: center;
+}
+#intro>span {
+  font-size: 13px;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #8b95a3;
+}
+#intro>h2 {
+  line-height: 1.6;
+  max-width: 60%;
+  margin-left: 20%;
+  color: #8b95a3;
+}
+

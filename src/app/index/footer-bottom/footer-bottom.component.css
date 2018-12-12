@@ -1,0 +1,9 @@
+#footer-bottom {
+  border-top: 1px solid #e7eaf0;
+  padding: 26px 0;
+  text-align: center;
+}
+#footer-bottom>p {
+  font-size: 13px;
+  color: #bcc1c9;
+}

@@ -1,0 +1,16 @@
+<div id="container">
+  <div id="header-logo">
+    <img [src]="active ? 'http://deothemes.com/envato/emaus/emaus_html/img/logo_dark.png' : 'http://deothemes.com/envato/emaus/emaus_html/img/logo_light.png'">
+  </div>
+  <div id="header-nav">
+    <ul id="navigation-list">
+      <li class = "list-content"
+          *ngFor = "let item of navList"
+          [ngClass] = "{'but-sign': item.name === 'Sign up', 'nav-home': item.name === 'Home'}"
+      >
+        <a [routerLink]="item.url" routerLinkActive="nav-active">{{item.name}}</a>
+        <app-drop-down *ngIf="item.name === 'Home'" id="drop-down"></app-drop-down>
+      </li>
+    </ul>
+  </div>
+</div>

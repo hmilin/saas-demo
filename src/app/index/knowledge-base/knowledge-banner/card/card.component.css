@@ -1,0 +1,18 @@
+.card {
+  padding: 10% 10%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+i {
+  font-size: 60px;
+  color: #373fb3;
+}
+h3 {
+  color: #3e4045;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.card:hover {
+  top: -2px;
+}

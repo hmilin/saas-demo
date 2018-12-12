@@ -1,0 +1,13 @@
+.features-container {
+  width: 100%;
+  background-color:#f7fbff;
+  padding: 70px 10% 130px 10%;
+  box-sizing: border-box;
+  font-size: 0
+}
+.features-container app-content-show {
+  width: 33.33333%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,12 @@
+.feature-icon {
+  font-size: 24px;
+  color: rgb(85, 160, 224);
+}
+app-feature {
+  width: 50%;
+  display: inline-block;
+}
+.section-feature {
+  padding: 50px 10%;
+  box-sizing: border-box;
+}

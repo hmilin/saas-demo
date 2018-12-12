@@ -1,0 +1,12 @@
+.icon-content {
+  padding: 40px 10%;
+  background-color: #f7fbff;
+}
+.container {
+  overflow: hidden;
+}
+.container i {
+  font-size: 60px;
+  color: #333;
+  float: left;
+}
