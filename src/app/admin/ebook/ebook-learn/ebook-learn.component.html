@@ -1,0 +1,13 @@
+<div class="learn-container">
+  <h2 class="title">
+    Here's a sneak peek of what you'll learn
+  </h2>
+  <div >
+    <div class="learn-content">
+      <app-learn-card *ngFor="let card of leftList">{{card}}</app-learn-card>
+    </div>
+    <div class="learn-content">
+      <app-learn-card *ngFor="let card of rightList">{{card}}</app-learn-card>
+    </div>
+  </div>
+</div>

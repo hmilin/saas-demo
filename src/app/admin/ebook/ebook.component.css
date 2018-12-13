@@ -1,0 +1,9 @@
+.download-container {
+  background-color: #6acfa8;
+  padding: 100px 0;
+  text-align: center;
+}
+.download-container app-get-book {
+  width: 50%;
+  display: inline-block;
+}

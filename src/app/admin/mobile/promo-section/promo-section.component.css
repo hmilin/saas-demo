@@ -1,0 +1,35 @@
+.promo {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 100px 10%;
+}
+img {
+
+}
+.promo-container {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding: 0 5%;
+}
+.promo-left {
+  color: #8b95a3;
+}
+.promo-left h2 {
+  margin-bottom:20px;
+}
+.promo-left p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.promo-left a {
+  line-height: 30px;
+  font-weight: 300;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  background-color: #fa9529;
+  border-radius: 30px;
+}

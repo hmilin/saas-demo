@@ -1,0 +1,25 @@
+.promo-container {
+  padding: 100px 10%;
+  box-sizing: border-box;
+}
+.promo-content {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 5%;
+  width: 50%;
+  vertical-align: middle;
+}
+.promo-text {
+  color: #8b95a3;
+}
+.promo-text h2 {
+  margin-bottom: 20px;
+}
+.promo-text>p {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.promo-img>img {
+  width: 100%;
+}

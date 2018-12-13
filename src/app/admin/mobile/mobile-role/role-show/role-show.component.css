@@ -1,0 +1,24 @@
+.show-container {
+  padding: 20px 10%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.show-container a {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: #f7fbff;
+  line-height: 80px;
+  color: #fa9529;
+}
+.show-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #3e4045;;
+}
+.show-container p {
+  font-size: 14px;
+  color: #8b95a3;
+}

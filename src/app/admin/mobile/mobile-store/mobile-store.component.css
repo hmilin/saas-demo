@@ -1,0 +1,29 @@
+.store {
+  box-sizing: border-box;
+  padding: 100px 20%;
+  text-align: center;
+  background-color: #f7fbff;
+}
+.store h2 {
+  margin-bottom: 20px;
+}
+.store a{
+  display: inline-block;
+  padding: 20px 30px;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.store a:nth-child(2) {
+  background-color: #58c143;
+}
+.store a:nth-child(3) {
+ background-color: #282828;
+}
+.store a:nth-child(4) {
+  background-color: #3f48c4;
+}
+i {
+  margin-right: 5px;
+  font-size: 30px;
+}

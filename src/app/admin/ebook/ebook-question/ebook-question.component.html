@@ -1,0 +1,9 @@
+<div class="question">
+  <h2>Frequently asked questions</h2>
+  <div>
+    <div class="question-container" *ngFor="let question of questionList">
+      <h4>{{question.title}}</h4>
+      <p>{{question.content}}</p>
+    </div>
+  </div>
+</div>

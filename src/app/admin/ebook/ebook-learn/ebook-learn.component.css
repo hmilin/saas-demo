@@ -1,0 +1,12 @@
+.learn-container {
+  box-sizing: border-box;
+  padding: 50px 5%;
+}
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.learn-content {
+  display: inline-block;
+  width: 50%;
+}

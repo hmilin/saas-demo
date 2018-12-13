@@ -1,0 +1,16 @@
+.ebook-hero {
+  box-sizing: border-box;
+  padding: 50px 10%;
+  background-color: #6acfa8;
+  text-align: center;
+}
+.ebook-hero>div {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 20px 5%;
+  width: 50%;
+}
+.image-container img {
+  width: 100%;
+}

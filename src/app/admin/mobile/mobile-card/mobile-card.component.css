@@ -1,0 +1,15 @@
+.card-container {
+  box-sizing: border-box;
+  padding: 100px 10%;
+  background-color: #f7fbff;
+}
+.container {
+  position: relative;
+  padding: 0 5%;
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+.container:hover {
+  top: -2px;
+}

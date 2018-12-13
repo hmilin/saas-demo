@@ -1,7 +1,9 @@
-<app-header id="header header-active"></app-header>
-<router-outlet></router-outlet>
-<app-newsletter *ngIf=""></app-newsletter>
-<footer>
-  <app-footer class="footer"></app-footer>
-  <app-footer-bottom></app-footer-bottom>
-</footer>
+<div id="index">
+  <app-header
+    class="header"
+    [ngClass]="{'header-active': active }"
+    [navList]="navList"
+  ></app-header>
+  <router-outlet></router-outlet>
+  <app-newsletter *ngIf=""></app-newsletter>
+</div>

@@ -1,0 +1,19 @@
+.learn-card {
+  display: inline-block;
+  padding: 0 5%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.learn-card p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #8b95a3;
+  font-weight: 400;
+}
+.learn-card i {
+  color: #6acfa8;
+  position: absolute;
+  left: -1%;
+  font-size: 20px;
+  top: 5px;
+}

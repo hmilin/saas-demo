@@ -1,0 +1,35 @@
+.get-book {
+  box-sizing: border-box;
+  padding: 10% 5%;
+  background-color: #fff;
+}
+.get-book h1 {
+  margin-bottom: 20px;
+}
+.get-book p {
+  line-height: 30px;
+  color: #8b95a3;
+  margin-bottom: 30px;
+}
+.get-book input {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #8b95a3;
+  border: 1px solid #e7eaf0;
+  width: 100%;
+  padding: 0 16px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background-color: #f7fbff;
+}
+.get-book button {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  background-color: #fa9529;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}

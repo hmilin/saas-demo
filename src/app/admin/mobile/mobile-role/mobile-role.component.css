@@ -1,0 +1,12 @@
+.role {
+  box-sizing: border-box;
+  padding: 50px 10%;
+}
+.role-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33.3333%;
+}
+.role-mid>img {
+  width: 100%;
+}

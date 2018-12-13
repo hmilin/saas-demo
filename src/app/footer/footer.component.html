@@ -1,0 +1,17 @@
+<!--footer-->
+<div id="footer">
+  <div id="footer-left">
+    <img src="http://deothemes.com/envato/emaus/emaus_html/img/logo_dark.png" alt="logo">
+    <div class="footer-left-bottom">
+      <a href="#" *ngFor="let iconItem of iconList"><i [innerHTML]="iconItem" class="iconfont footer-icon"></i></a>
+    </div>
+  </div>
+  <div id="footer-right">
+    <dl class="footer-right-list" *ngFor="let key of objectKeys(listItem)">
+      <dt>{{key}}</dt>
+      <dd class="list-content"  *ngFor="let item of listItem[key]">
+        <a href="">{{item}}</a>
+      </dd>
+    </dl>
+  </div>
+</div>
