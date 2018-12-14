@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContentShowComponent implements OnInit {
    @Input() background: string;//从父组件传来的值
-   @Input() showList: object;
+   @Input() showList: any;
   constructor() { }
 
   ngOnInit() {

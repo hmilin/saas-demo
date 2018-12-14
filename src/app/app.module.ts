@@ -51,6 +51,7 @@ import { LearnCardComponent } from './admin/ebook/ebook-learn/learn-card/learn-c
 import { FreeEbookComponent } from './admin/ebook/free-ebook/free-ebook.component';
 import { EbookPromoComponent } from './admin/ebook/ebook-promo/ebook-promo.component';
 import { EbookQuestionComponent } from './admin/ebook/ebook-question/ebook-question.component';
+import { SwiperContainerComponent } from './admin/swiper-container/swiper-container.component';
 
 @NgModule({
   declarations: [
@@ -101,7 +102,8 @@ import { EbookQuestionComponent } from './admin/ebook/ebook-question/ebook-quest
     LearnCardComponent,
     FreeEbookComponent,
     EbookPromoComponent,
-    EbookQuestionComponent
+    EbookQuestionComponent,
+    SwiperContainerComponent
   ],
   imports: [
     BrowserModule,

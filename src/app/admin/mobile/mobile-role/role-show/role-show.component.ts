@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./role-show.component.css']
 })
 export class RoleShowComponent implements OnInit {
-  @Input() roleList : object;
+  @Input() roleList : any;
   constructor() { }
 
   ngOnInit() {

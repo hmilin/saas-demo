@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./pricing-show.component.css']
 })
 export class PricingShowComponent implements OnInit {
-  @Input() list : object;
+  @Input() list : any;
   constructor() { }
 
   ngOnInit() {

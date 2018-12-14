@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./knowledge-banner.component.css']
 })
 export class KnowledgeBannerComponent implements OnInit {
-  list: object[] = [
+  list: any[] = [
     { "icon": "&#xe62f;", "text": "Getting Started"},
     { "icon": "&#xe8ce;", "text": "Payments & Billing"},
     { "icon": "&#xe62a;", "text": "Account Management"},
